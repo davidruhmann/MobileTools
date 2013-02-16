@@ -14,7 +14,7 @@
 //// Local Includes.
 #include "stdafx.h"
 #include "ScannerDialog.h"
-// Millennium Mobile's Message Definitions. (For Conflict Reference Only)
+// List of Target Application Messages Already Used.
 //#include "WindowsMessages.h"
 
 //// The application object.
@@ -23,7 +23,7 @@ CWinApp theApp;
 //// Definitions.
 // (http://msdn.microsoft.com/en-us/library/aa911386.aspx)
 #define TH32CS_SNAPNOHEAPS   0x40000000
-#define APPLICATION_TARGET   _T("mmobile.exe")
+#define APPLICATION_TARGET   _T("target.exe")
 // Prompt Type Flags
 #define PT_DEFAULT           MB_TASKMODAL | MB_TOPMOST | MB_OK
 #define PT_ERROR             PT_DEFAULT | MB_ICONERROR
