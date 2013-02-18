@@ -76,6 +76,9 @@ bool Logger::Close()
 	// Verify open handle.
 	if (m_pFile != NULL)
 	{
+		// Flush the buffer.
+		fflush(m_pFile);
+
 		// Close file.
 		if (fclose(m_pFile) == EOF)
 		{
